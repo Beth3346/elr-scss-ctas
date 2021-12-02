@@ -1,0 +1,41 @@
+@import "elr-scss-config/src/main";
+@import "elr-scss-reset/src/main";
+@import "elr-scss-base/src/main";
+@import "./src/main";
+
+@include elr-reset;
+@include elr-base;
+
+* {
+  font-family: Roboto;
+}
+
+.wrapper {
+  max-width: $content-width;
+  margin: auto;
+  padding: ($base-fontsize * 1.5);
+}
+
+.main-heading,
+.subheading {
+  border-bottom: $border;
+  padding-bottom: $base-fontsize * 0.5;
+  margin-bottom: $base-fontsize;
+  width: 100%;
+}
+
+.main-heading {
+  font-size: $base-fontsize * 2;
+  font-weight: 700;
+}
+
+.subheading {
+  font-size: $base-fontsize * 1.5;
+  font-weight: 900;
+  color: $primary-color;
+}
+
+.demo-content {
+  position: relative;
+  padding: ($base-fontsize * 1.5) 0;
+}
