@@ -18,7 +18,7 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.1",
     "elr-scss-helpers": "^0.0.12",
-    "elr-scss-reset": "^0.0.7",
+    "elr-scss-reset": "^0.0.8",
     "elr-scss-base": "^0.0.9",
     "husky": "^7.0.4",
     "np": "^7.6.0",
