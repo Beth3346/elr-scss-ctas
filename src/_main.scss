@@ -1,12 +1,94 @@
 @import "elr-scss-functions/src/main";
+@import "elr-scss-config/src/main";
 
-@mixin elr-steps($config: ()) {
+@mixin elr-cta($config: ()) {
   $config: extend(
     (
-      color: #333,
+      background-color: $white,
+      primary-color: $primary-color,
+      accent-color: #fd008b,
+      accent-color-darker: #db0079,
+      border-radius: $border-radius,
+      shadow: $shadow,
     ),
     $config
   );
 
-  $color: map-get($config, color);
+  $background-color: map-get($config, background-color);
+
+  border-radius: $border-radius;
+  padding: ($base-fontsize * 2);
+  box-shadow: $shadow;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+
+  &.cta-dark {
+    background-color: #111;
+
+    .cta-heading {
+      color: #fd008b;
+    }
+
+    .cta-content,
+    p {
+      color: $white;
+    }
+
+    .elr-button-secondary {
+      background-color: #db0079;
+      border-color: #db0079;
+
+      &:hover {
+        background-color: $primary-color;
+        border-color: $primary-color;
+      }
+    }
+
+    .elr-button-ghost {
+      background: transparent;
+      border-color: #fd008b;
+      color: #fd008b;
+
+      &:hover {
+        color: $white;
+        background-color: #db0079;
+        border-color: #db0079;
+      }
+    }
+  }
+
+  &.cta-center {
+    align-items: center;
+
+    .cta-content {
+      max-width: 768px;
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+
+  .cta-heading {
+    padding: 0;
+    margin: 0 0 $base-fontsize;
+    font-size: $h2-fontsize;
+    font-weight: 900;
+    color: $primary-color;
+  }
+
+  .cta-content p,
+  .cta-content li {
+    font-size: 18px;
+  }
+
+  .cta-button-holder {
+    padding-top: $base-fontsize;
+
+    a,
+    button {
+      margin-right: $base-fontsize * 0.5;
+    }
+  }
 }
