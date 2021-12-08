@@ -1,5 +1,7 @@
-# elr-scss-ctas
+# CTAs
 
+[![npm version](http://img.shields.io/npm/v/elr-scss-ctas.svg)](https://www.npmjs.org/package/elr-scss-ctas)
+[![Build Status](https://github.com/elr-scss-ctas/workflows/CI/badge.svg)](https://github.com/elr-scss-ctas/actions?workflow=CI)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/dm/elr-scss-ctas.svg?style=flat)](https://npmjs.com/package/elr-scss-ctas)
 
@@ -21,12 +23,12 @@ yarn add elr-scss-ctas
 
 ## Implementation
 
-This package is meant to be used with `elr-scss-helpers` for default button styles. If you want to use custom button styles don't use the `elr-button` classes.
+This package is meant to be used with `elr-scss-ctas` for default button styles. If you want to use custom button styles don't use the `elr-button` classes.
 
 ### Scss
 
 ```scss
-@import "elr-scss-helpers/src/main";
+@import "elr-scss-ctas/src/main";
 @import "elr-scss-cta/src/main";
 
 @include elr-button-classes;
