@@ -1,7 +1,7 @@
 # CTAs
 
 [![npm version](http://img.shields.io/npm/v/elr-scss-ctas.svg)](https://www.npmjs.org/package/elr-scss-ctas)
-[![Build Status](https://github.com/elr-scss-ctas/workflows/CI/badge.svg)](https://github.com/elr-scss-ctas/actions?workflow=CI)
+[![CI](https://github.com/Beth3346/elr-scss-ctas/actions/workflows/node.js.yml/badge.svg)](https://github.com/Beth3346/elr-scss-ctas/actions/workflows/node.js.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/dm/elr-scss-ctas.svg?style=flat)](https://npmjs.com/package/elr-scss-ctas)
 
