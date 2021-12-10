@@ -4,8 +4,11 @@
 [![CI](https://github.com/Beth3346/elr-scss-ctas/actions/workflows/node.js.yml/badge.svg)](https://github.com/Beth3346/elr-scss-ctas/actions/workflows/node.js.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/dm/elr-scss-ctas.svg?style=flat)](https://npmjs.com/package/elr-scss-ctas)
+[![last commit](https://img.shields.io/github/last-commit/Beth3346/elr-scss-ctas.svg)](https://github.com/Beth3346/elr-scss-ctas)
 
 a scss mixin for ctas
+
+<!-- [View Demo](https://elr-ctas.netlify.app/) -->
 
 ## Installation
 
